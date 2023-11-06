@@ -15,10 +15,10 @@ const showTeas = async () => {
         
         let img = document.createElement("img");
         section.append(img);
-        img.src = "http://localhost:3000/" + teas.img;
+        img.src = "https://serversidejson.onrender.com" + teas.img;
         img.width = 300;
         img.height = 300;
-        
+
         let p = document.createElement("p");
         section.append(p);
         p.innerHTML += "<b>Caffeine ranges:</b> " + teas.caffine + `<br>`;
