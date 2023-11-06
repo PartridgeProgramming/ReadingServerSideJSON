@@ -15,7 +15,7 @@ const showTeas = async () => {
         
         let img = document.createElement("img");
         section.append(img);
-        img.src = "https://serversidejson.onrender.com" + teas.img;
+        img.src = "https://serversidejson.onrender.com/" + teas.img;
         img.width = 300;
         img.height = 300;
 
