@@ -32,7 +32,7 @@ const showTeas = async () => {
 
 const getJSON = async () => {
     try {
-        let response = await fetch("https://serversidejson.onrender.com");
+        let response = await fetch("https://serversidejson.onrender.com/api/teas");
         return await response.json();
     } catch(error) {
         console.log("There was an error with fetching the JSON.")
