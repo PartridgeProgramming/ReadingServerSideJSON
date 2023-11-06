@@ -3,6 +3,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     /* Bigger text because I prefer it */
     font-size: larger;    
+    background-color: #d0f0c0;
+}
+
+h1 {
+    text-align: center;
 }
 
 /* Tea List */
@@ -11,14 +16,16 @@ body {
 }
 
 #tea-list section {
-    border: 2px solid black;
     margin: 1%;
+    border: 2px solid black;
 }
 
 /* Flexbox */
 .flexbox {
     display: flex;
     flex-direction: column;
+    height: fit-content;
+    min-width: 300px;
 }
 
 /* Larger resolutions */
